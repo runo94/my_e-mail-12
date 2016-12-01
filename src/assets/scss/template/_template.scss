@@ -1,0 +1,153 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #fff !important;
+}
+
+table.row {
+  width: auto;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+
+// Full Width Headers
+
+
+.atention.wrapper p {
+  text-align: center;
+}
+
+.header.wrapper {
+  width: auto;
+  height: 270px;
+  background: url('http://www.picshare.ru/uploads/161201/OdAJF9RXQt.png');
+  background-repeat: no-repeat;
+  }
+
+.header.wrapper p {
+  width: 300px;
+  font-size:35px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #3c3c3c;
+}
+
+.header.wrapper a img{
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
+box-shadow: 10px 10px 0px 0px rgba(0,0,0,0.2);
+}
+
+.header.wrapper a img:hover{
+  -webkit-box-shadow: 0 0 0px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: 0 0 0px 0px rgba(0,0,0,0.2);
+box-shadow: 0 0 0px 0px rgba(0,0,0,0.2);
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+.secondary.wrapper {
+  background: #117bb6 !important;
+  -webkit-box-shadow: inset 0px -21px 0px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: inset 0px -21px 0px 0px rgba(0,0,0,0.3);
+  box-shadow: inset 0px -21px 0px 0px rgba(0,0,0,0.3);
+  color: #fff !important;
+}
+
+.secondary.wrapper .white {
+  color: #fff !important;
+}
+
+.secondary.wrapper p.white {
+  font-size: 22px;
+}
+
+.third.wrapper {
+  background: #81c74e !important;
+}
+
+.third.wrapper .white {
+  color: #fff !important;
+  display: inline-block;
+}
+
+.third.wrapper .gray {
+  color: #f3f3f3 !important;
+  display: inline-block;
+}
+
+.third.wrapper p.white {
+  font-size: 18px !important;
+}
+
+.third.wrapper span.gray {
+  font-size: 14px !important;
+}
+
+.forth.wrapper {
+  background: #fefefe !important;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+@media screen and (max-width:596px){
+  .header.wrapper {
+    width: 95%;
+    min-width: 300px;
+  }
+  .header.wrapper p {
+    width: 300px;
+    font-size:35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #3c3c3c;
+  }
+  table.body p.name {
+      width: auto;
+      height: auto;
+  }
+
+  table.row {
+    width: 100%;
+  }
+
+  table.body center p {
+    max-width: 300px;  
+  }
+}
